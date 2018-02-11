@@ -5,8 +5,8 @@ import threading
 import socket
 import time
 
-MAX_THREAD = 1000
-HOST = '172.xx.xx.211'
+MAX_THREAD = 10
+HOST = '172.93.35.211'
 PORT = 8080
 
 def to_bytes(s):
